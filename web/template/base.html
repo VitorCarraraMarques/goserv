@@ -1,13 +1,47 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goserv</title>
-  </head>
+    <style>
+        :root {
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
 
-  <body>
+            color-scheme: light dark;
+
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-text-size-adjust: 100%;
+            
+            max-width: 1280px;
+            margin: 0;
+            padding: 0rem;
+            text-align: top;
+            box-sizing: border-box;
+            min-width: 100%;
+
+            --text: rgb(255, 255, 255);
+            --background: rgb(16, 1, 35);
+            --primary: rgb(100, 71, 133);
+            --secondary: rgb(41, 22, 65);
+            --accent: rgb(210, 86, 86);
+            --accent-darker: rgb(179, 49, 49);
+
+            background: var(--background);
+            color: var(--text);
+        }
+    </style>
+</head>
+
+<body>
     {{ template "header" . }} 
-    {{ template "content" . }}
-  </body>
+    {{ template "nav" . }}
+</body>
+
 </html>
