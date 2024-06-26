@@ -76,7 +76,13 @@
 </head>
 
 <body>
-    {{ template "header" . }} {{ template "nav" . }} {{ template "projects" . }}
+    {{ template "header" . }} 
+    {{ template "nav" . }} 
+    {{ block "content" . }}
+        <section class="content" id="content">
+            Bem Vindo
+        </section> 
+    {{ end }}
 </body>
 
 </html>
