@@ -78,11 +78,7 @@
 <body>
     {{ template "header" . }} 
     {{ template "nav" . }} 
-    {{ block "content" . }}
-        <section class="content" id="content">
-            Bem Vindo
-        </section> 
-    {{ end }}
+    {{ template "content" . }}
 </body>
 
 </html>

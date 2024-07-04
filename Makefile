@@ -1,0 +1,2 @@
+serve:
+	scripts/serve.sh
