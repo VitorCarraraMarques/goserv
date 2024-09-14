@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <script defer src="/src/source.js"></script> 
+    <link rel="stylesheet" href="/style/output.css" />
+    <title>Drag & Drop</title>
+</head>
+
+<body>
+        {{ template "dragabble" . }}
+</body>
+
+</html>
+
+{{ define "dragabble" }} 
+
+    <div id="dashboard" class="mx-auto my-4 bg-sky-200 w-[1920px] h-[1080px] relative">
+    {{ range .DraggableData }}
+    <div>
+            <style>
+                .draggable-card-{{.Order}} {
+                    left: {{ .XPos }}px;     
+                    top: {{ .YPos }}px;     
+                    width: {{ .Width }}px;  
+                    height: {{ .Height }}px;
+                }
+            </style>
+            <div 
+              hx-swap="outerHTML"
+              hx-post="/drag"
+              draggable="true" 
+              class="draggable-card-{{.Order}} absolute bg-cyan-500 border-4 border-cyan-900"
+            > 
+                <form> 
+                <input hidden/>
+                </form>
+            </div>
+    </div>
+    {{ end }} 
+    </div>
+{{ end }}

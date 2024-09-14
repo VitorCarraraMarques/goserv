@@ -1,0 +1,155 @@
+{{ define "content" }}
+<style>
+    .grid {
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 12vw;
+        grid-gap: 15px 16px;
+        column-gap: 20px;
+        justify-content: center;
+        max-width: 1400px;
+        width: 100%;
+    }
+
+    .card {
+        background: none;
+        position: relative;
+        transition: transform 500ms;
+        margin-bottom: 0;
+    }
+
+    .card:focus,
+    .card:hover {
+        transform: scale(1.2);
+        z-index: 2;
+        filter: drop-shadow(0 0 2em #121435aa);
+        background-color: var(--primary);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-cover {
+        background: none;
+        max-width: 100%;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .card-gif {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .card-info {
+        display: flex;
+        justify-content: space-around;
+        scale: 0;
+    }
+
+    .card:focus .card-info,
+    .card:hover .card-info {
+        scale: 1;
+        background-color: var(--primary);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .links-wrapper {
+        padding: 0;
+        max-width: 15rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1dvw;
+        align-items: center;
+    }
+
+    .repo-link img,
+    .demo-link img {
+        max-width: 1.5rem;
+        margin: 0 0;
+    }
+
+    .repo-link,
+    .demo-link {
+        margin: 0 0;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        background-color: var(--text);
+        border-radius: 100%;
+        padding: 0.5em;
+    }
+
+    .repo-link:hover,
+    .demo-link:hover {
+        background-color: hsl(0, 0%, 80%);
+    }
+
+    .tools-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .tools-header {
+        margin: 0 0;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .tools-wrapper {
+        margin: 0 0;
+        padding: 0.5rem;
+        max-width: 250px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1dvw;
+        align-items: center;
+    }
+
+    .tool-img {
+        width: 3dvw;
+    }
+</style>
+
+<section class="content">
+    <h1 class="content-name">PROJETOS</h1>
+    <div class="grid">
+        {{ range .ProjectData}}
+        <div class="card">
+            <div class="card-cover">
+                <img class="card-gif" src="/assets/{{.ImgSrc}}" alt="Gif do projeto {{.Name}}" />
+            </div>
+            <div class="card-info">
+                <div class="links-wrapper">
+                    {{ if .RepoLink }}
+                    <a href="{{.RepoLink}}" class="repo-link">
+                        <img src="/assets/githubicon.png" />
+                    </a>
+                    {{ end }} 
+                    {{ if .DemoLink }}
+                    <a href="{{.DemoLink}}" class="demo-link">
+                        <img src="/assets/demolink.png" />
+                    </a>
+                    {{ end }}
+                </div>
+
+                <div class="tools-section">
+                    <h4 class="tools-header">Toolkit:</h4>
+                    <div class="tools-wrapper">
+                        {{ range .Tools }}
+                        <img class="tool-img" src="/assets/tools/{{.}}" key="{tool}" />
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}

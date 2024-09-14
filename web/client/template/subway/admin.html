@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <link rel="stylesheet" href="/style/output.css" />
+    <title>Subway[Admin]</title>
+</head>
+<body class="ml-20">
+        <section class="border border-gray-200"> 
+            <h1 class="border-b-2 ml-2 border-gray-200 text-5xl font-mono"> 
+                Estações
+            </h1>
+            <div class="grid gap-5 p-2 grid-cols-5">
+            {{ range . }}
+                <div class="flex items-center p-3 gap-5 border border-gray-100">
+                    <div class="w-4 h-4 rounded-full border-4 border-red-300 bg-red-300">
+                    </div>
+                    <div class="font-thin text-5xl text-nowrap overflow-hidden 
+                        hover:overflow-visible hover:w-fit hover:bg-gray-100" >
+                        {{ .Name }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        <section>
+
+        <div class="flex p-2">
+            <form 
+                hx-post="/subway/add"
+                hx-target="closest div"
+                hx-swap="beforeend"
+                hx-triggger="submit"
+                class="flex flex-col"  
+            >
+                <input name="NewNode" type="text" class="p-4 rounded-lg  border border-gray-200 text-4xl" />
+                <button type="submit" class="rounded-lg bg-zinc-200 hover:bg-zinc-600 hover:text-white text-2xl font-thin p-4" >
+                    Adicionar Estação 
+                </button>
+            </form>
+        </div>
+
+</body>
+</html>

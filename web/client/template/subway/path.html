@@ -1,0 +1,36 @@
+{{ $add := .Add }}
+{{ $lanes := .LanesMap }}
+{{ range .Paths }}
+    <div class="border border-black">
+        {{ $paths := . }}
+        {{ range $i, $node := . }}
+            {{ if eq $i 0 }}
+                <div class="inline-flex flex-row border border-gray-100 m-1 p-2 items-center"> 
+                    {{ $bgclr := printf "%s%d" "bg-subwaylane-" $node.Lane }}
+                    {{ $txtclr := printf "%s%d" "text-subwaylanetext-" $node.Lane }}
+                    <span class="{{$bgclr}} {{$txtclr}} p-2"> {{$node.Lane}} </span>
+                    <span class="ml-2"> {{$node.Name}} </span>
+                </div>
+            {{ else }} 
+                {{ $p := call $add $i -1 }}
+                {{ $curr := index $paths $i }}
+                {{ $prev := index $paths $p }}
+                {{ if ne $curr.Lane $prev.Lane}} 
+                    <br/> 
+                    {{ $pl := index $lanes $prev.Lane }}
+                    {{ $cl := index $lanes $curr.Lane }}
+                    <span> 
+                    BALDEAÇÃO ({{$prev.Lane}} - {{$pl.Name}}) -> ({{$curr.Lane}} - {{$cl.Name}}) 
+                    </span> 
+                    <br/>
+                {{ end }}
+                <div class="inline-flex flex-row border border-gray-100 m-1 p-2 items-center"> 
+                    {{ $bgclr := printf "%s%d" "bg-subwaylane-" $node.Lane }}
+                    {{ $txtclr := printf "%s%d" "text-subwaylanetext-" $node.Lane }}
+                    <span class="{{$bgclr}} {{$txtclr}} p-2"> {{$node.Lane}} </span>
+                    <span class="ml-2"> {{$node.Name}} </span>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}

@@ -1,0 +1,864 @@
+ > Guilhermina Esperança(3):
+   +-> Vila Matilde(3)
+   +-> Patriarca-Vila Ré(3)
+
+ > Piqueri(7):
+   +-> Pirituba(7)
+   +-> Lapa(7)
+
+ > Granja Julieta(9):
+   +-> Morumbi(9)
+   +-> João Dias(9)
+
+ > Tiradentes(1):
+   +-> Armênia(1)
+   +-> Luz(1)
+
+ > Vila das Belezas(5):
+   +-> Campo Limpo(5)
+   +-> Giovani Gronchi(5)
+
+ > Lapa(7):
+   +-> Piqueri(7)
+   +-> Água Branca(7)
+
+ > Itaim Paulista(12):
+   +-> Jardim Helena-Vila Mara(12)
+   +-> Jardim Romano(12)
+
+ > República(4):
+   +-> Luz(4)
+   +-> República(3)
+   +-> Higienópolis-Mackenzie(4)
+
+ > Campo Limpo Paulista(7):
+   +-> Várzea Paulista(7)
+   +-> Botujuru(7)
+
+ > Botujuru(7):
+   +-> Campo Limpo Paulista(7)
+   +-> Francisco Morato(7)
+
+ > Lapa(8):
+   +-> Palmeiras-Barra Funda(8)
+   +-> Domingos de Moraes(8)
+
+ > Guapituba(10):
+   +-> Mauá(10)
+   +-> Ribeirão Pires(10)
+
+ > Rio Grande da Serra(10):
+   +-> Ribeirão Pires(10)
+
+ > Ana Rosa(2):
+   +-> Paraíso(2)
+   +-> Ana Rosa(1)
+   +-> Ana Rosa(2)
+   +-> Chácara Klabin(2)
+
+ > Santa Cruz(1):
+   +-> Vila Mariana(1)
+   +-> Santa Cruz(5)
+   +-> Praça da Árvore(1)
+
+ > Clínicas(2):
+   +-> Sumaré(2)
+   +-> Consolação(2)
+
+ > Marechal Deodoro(3):
+   +-> Palmeiras-Barra Funda(3)
+   +-> Santa Cecília(3)
+
+ > República(3):
+   +-> Santa Cecília(3)
+   +-> República(4)
+   +-> Anhangabaú(3)
+
+ > Adolfo Pinheiro(5):
+   +-> Largo Treze(5)
+   +-> Alto da Bela Vista(5)
+
+ > Baltazar Fidélis(7):
+   +-> Francisco Morato(7)
+   +-> Caieiras(7)
+
+ > Perus(7):
+   +-> Caieiras(7)
+   +-> Vila Aurora(7)
+
+ > Paraíso(2):
+   +-> Paraíso(1)
+   +-> Paraíso(2)
+   +-> Ana Rosa(2)
+   +-> Brigadeiro(2)
+
+ > Ipiranga(10):
+   +-> Tamanduateí(10)
+   +-> Juventus-Mooca(10)
+
+ > Jardim Helena-Vila Mara(12):
+   +-> São Miguel Paulista(12)
+   +-> Itaim Paulista(12)
+
+ > Comandante Sampaio(8):
+   +-> Quitaúna(8)
+   +-> Osasco(8)
+
+ > Saúde(1):
+   +-> Praça da Árvore(1)
+   +-> São Judas(1)
+
+ > Barueri(8):
+   +-> Jardim Silveira(8)
+   +-> Antonio João(8)
+
+ > São Caetano do Sul(10):
+   +-> Tamanduateí(10)
+   +-> Utinga(10)
+
+ > USP Leste(12):
+   +-> Engenheiro Goulart(12)
+   +-> Comendador Ermelino(12)
+
+ > Guarulhos-Cecap(13):
+   +-> Engenheiro Goulart(13)
+   +-> Aeroporto-Guarulhos(13)
+
+ > São Bento(1):
+   +-> Luz(1)
+   +-> Sé(1)
+
+ > Japão-Liberdade(1):
+   +-> Sé(1)
+   +-> São Joaquim(1)
+
+ > Oscar Freire(4):
+   +-> Fradique Coutinho(4)
+   +-> Paulista(4)
+
+ > Paulista(2):
+
+ > Amador Bueno(8):
+   +-> Santa Rita(8)
+
+ > Jurubatuba(9):
+   +-> Socorro(9)
+   +-> Autódromo(9)
+
+ > Prefeito Saladino(10):
+   +-> Utinga(10)
+   +-> Santo André(10)
+
+ > Ribeirão Pires(10):
+   +-> Guapituba(10)
+   +-> Rio Grande da Serra(10)
+
+ > Luz(10):
+   +-> Luz(1)
+   +-> Luz(4)
+   +-> Luz(7)
+   +-> Luz(11)
+   +-> Brás(10)
+
+ > Jardim Romano(12):
+   +-> Itaim Paulista(12)
+   +-> Engenheiro Manoel Feio(12)
+
+ > Comendador Ermelino(12):
+   +-> USP Leste(12)
+   +-> São Miguel Paulista(12)
+
+ > Santos-Imigrantes(2):
+   +-> Chácara Klabin(2)
+   +-> Alto do Ipiranga(2)
+
+ > Faria Lima(4):
+   +-> Pinheiros(4)
+   +-> Fradique Coutinho(4)
+
+ > Eucaliptos(5):
+   +-> Campo Belo(5)
+   +-> Moema(5)
+
+ > Vila Olímpia(9):
+   +-> Cidade Jardim(9)
+   +-> Berrini(9)
+
+ > Morumbi(9):
+   +-> Berrini(9)
+   +-> Granja Julieta(9)
+
+ > Fazenda da Juta(15):
+   +-> Sapopemba(15)
+   +-> São Mateus(15)
+
+ > Sé(3):
+   +-> Sé(1)
+   +-> Sé(3)
+   +-> Anhangabaú(3)
+   +-> Pedro II(3)
+
+ > Brás(10):
+   +-> Luz(10)
+   +-> Brás(3)
+   +-> Brás(7)
+   +-> Brás(11)
+   +-> Brás(12)
+   +-> Juventus-Mooca(10)
+
+ > Vila Sônia(4):
+   +-> São Paulo-Morumbi(4)
+
+ > Butantã(4):
+   +-> São Paulo-Morumbi(4)
+   +-> Pinheiros(4)
+
+ > Capão Redondo(5):
+   +-> Campo Limpo(5)
+
+ > Santo Amaro(5):
+   +-> Giovani Gronchi(5)
+   +-> Santo Amaro(9)
+   +-> Largo Treze(5)
+
+ > Largo Treze(5):
+   +-> Santo Amaro(5)
+   +-> Adolfo Pinheiro(5)
+
+ > Hospital São Paulo(5):
+   +-> Santa Cruz(5)
+   +-> AACD-Servidor(5)
+
+ > Vergueiro(1):
+   +-> São Joaquim(1)
+   +-> Paraíso(1)
+
+ > Carandiru(1):
+   +-> Santana(1)
+   +-> Portuguesa-Tiête(1)
+
+ > Conceição(1):
+   +-> São Judas(1)
+   +-> Jabaquara(1)
+
+ > Várzea Paulista(7):
+   +-> Jundiaí(7)
+   +-> Campo Limpo Paulista(7)
+
+ > Francisco Morato(7):
+   +-> Botujuru(7)
+   +-> Baltazar Fidélis(7)
+
+ > Quitaúna(8):
+   +-> General Miguel Costa(8)
+   +-> Comandante Sampaio(8)
+
+ > Juventus-Mooca(10):
+   +-> Brás(10)
+   +-> Ipiranga(10)
+
+ > Antonio Gianetti Neto(11):
+   +-> Guaianases(11)
+   +-> Ferraz de Vasconcelos(11)
+
+ > Parada Inglesa(1):
+   +-> Tucuruvi(1)
+   +-> Jardim São Paulo-Ayrton Senna(1)
+
+ > Luz(1):
+   +-> Tiradentes(1)
+   +-> Luz(4)
+   +-> Luz(7)
+   +-> Luz(10)
+   +-> Luz(11)
+   +-> São Bento(1)
+
+ > Vila Mariana(1):
+   +-> Ana Rosa(1)
+   +-> Santa Cruz(1)
+
+ > Sumaré(2):
+   +-> Vila Madalena(2)
+   +-> Clínicas(2)
+
+ > Brigadeiro(2):
+   +-> Ana Rosa(2)
+   +-> Trianon-Masp(2)
+
+ > Borba Gato(5):
+   +-> Alto da Bela Vista(5)
+   +-> Brooklin(5)
+
+ > Engenheiro Cardoso(8):
+   +-> Itapevi(8)
+   +-> Sagrado Coração(8)
+
+ > Presidente Altino(8):
+   +-> Osasco(8)
+   +-> Presidente Altino(9)
+   +-> Imperatriz Leopoldina(8)
+
+ > Armênia(1):
+   +-> Portuguesa-Tiête(1)
+   +-> Tiradentes(1)
+
+ > São Mateus(15):
+   +-> Fazenda da Juta(15)
+   +-> Jardim Colonial(15)
+
+ > Jardim Colonial(15):
+   +-> São Mateus(15)
+
+ > Engenheiro Goulart(13):
+   +-> Engenheiro Goulart(12)
+   +-> Guarulhos-Cecap(13)
+
+ > Luz(4):
+   +-> Luz(1)
+   +-> Luz(7)
+   +-> Luz(10)
+   +-> Luz(11)
+   +-> República(4)
+
+ > Fradique Coutinho(4):
+   +-> Faria Lima(4)
+   +-> Oscar Freire(4)
+
+ > Antonio João(8):
+   +-> Barueri(8)
+   +-> Santa Terezinha(8)
+
+ > Primavera-Interlagos(9):
+   +-> Autódromo(9)
+   +-> Grajaú(9)
+
+ > Santo André(10):
+   +-> Prefeito Saladino(10)
+   +-> Capuava(10)
+
+ > Vila União(15):
+   +-> Vila Tolstói(15)
+   +-> Jardim Planalto(15)
+
+ > Jardim São Paulo-Ayrton Senna(1):
+   +-> Parada Inglesa(1)
+   +-> Santana(1)
+
+ > Tatuapé(11):
+   +-> Brás(11)
+   +-> Tatuapé(3)
+   +-> Tatuapé(12)
+   +-> Corinthians-Itaquera(11)
+
+ > Jandira(8):
+   +-> Sagrado Coração(8)
+   +-> Jardim Silveira(8)
+
+ > Júlio Prestes(8):
+   +-> Palmeiras-Barra Funda(8)
+
+ > Capuava(10):
+   +-> Santo André(10)
+   +-> Mauá(10)
+
+ > Luz(11):
+   +-> Luz(1)
+   +-> Luz(4)
+   +-> Luz(7)
+   +-> Luz(10)
+   +-> Brás(11)
+
+ > Santa Cruz(5):
+   +-> Santa Cruz(1)
+   +-> Chácara Klabin(5)
+   +-> Hospital São Paulo(5)
+
+ > Vila Prudente(15):
+   +-> Vila Prudente(2)
+   +-> Oratório(15)
+
+ > Vila Matilde(3):
+   +-> Penha(3)
+   +-> Guilhermina Esperança(3)
+
+ > Corinthians-Itaquera(11):
+   +-> Tatuapé(11)
+   +-> Corinthians-Itaquera(3)
+   +-> Dom Bosco(11)
+
+ > São Paulo-Morumbi(4):
+   +-> Vila Sônia(4)
+   +-> Butantã(4)
+
+ > General Miguel Costa(8):
+   +-> Carapicuiba(8)
+   +-> Quitaúna(8)
+
+ > Cidade Jardim(9):
+   +-> Hebraica-Rebouças(9)
+   +-> Vila Olímpia(9)
+
+ > Ana Rosa(1):
+   +-> Paraíso(1)
+   +-> Ana Rosa(1)
+   +-> Ana Rosa(2)
+   +-> Vila Mariana(1)
+
+ > Guaianases(11):
+   +-> José Bonifácio(11)
+   +-> Antonio Gianetti Neto(11)
+
+ > Pedro II(3):
+   +-> Sé(3)
+   +-> Brás(3)
+
+ > Brás(3):
+   +-> Pedro II(3)
+   +-> Brás(7)
+   +-> Brás(10)
+   +-> Brás(11)
+   +-> Brás(12)
+   +-> Bresser-Mooca(3)
+
+ > Brás(12):
+   +-> Brás(3)
+   +-> Brás(7)
+   +-> Brás(10)
+   +-> Brás(11)
+   +-> Tatuapé(12)
+
+ > Imperatriz Leopoldina(8):
+   +-> Presidente Altino(8)
+   +-> Domingos de Moraes(8)
+
+ > São Judas(1):
+   +-> Saúde(1)
+   +-> Conceição(1)
+
+ > São Joaquim(1):
+   +-> Japão-Liberdade(1)
+   +-> Vergueiro(1)
+
+ > Alto do Ipiranga(2):
+   +-> Santos-Imigrantes(2)
+   +-> Sacomã(2)
+
+ > Tatuapé(3):
+   +-> Belém(3)
+   +-> Tatuapé(11)
+   +-> Tatuapé(12)
+   +-> Carrão(3)
+
+ > Vila Clarice(7):
+   +-> Jaraguá(7)
+   +-> Pirituba(7)
+
+ > Autódromo(9):
+   +-> Jurubatuba(9)
+   +-> Primavera-Interlagos(9)
+
+ > Itaquaquecetuba(12):
+   +-> Engenheiro Manoel Feio(12)
+   +-> Aracaré(12)
+
+ > Portuguesa-Tiête(1):
+   +-> Carandiru(1)
+   +-> Armênia(1)
+
+ > Paulista(4):
+   +-> Consolação(2)
+   +-> Oscar Freire(4)
+   +-> Higienópolis-Mackenzie(4)
+
+ > Pirituba(7):
+   +-> Vila Clarice(7)
+   +-> Piqueri(7)
+
+ > Carapicuiba(8):
+   +-> Santa Terezinha(8)
+   +-> General Miguel Costa(8)
+
+ > Cidade Universitária(9):
+   +-> Pinheiros(9)
+   +-> Villa-Lobos-Jaguaré(9)
+
+ > Berrini(9):
+   +-> Vila Olímpia(9)
+   +-> Morumbi(9)
+
+ > Ferraz de Vasconcelos(11):
+   +-> Antonio Gianetti Neto(11)
+   +-> Poá(11)
+
+ > Chácara Klabin(2):
+   +-> Ana Rosa(2)
+   +-> Chácara Klabin(5)
+   +-> Santos-Imigrantes(2)
+
+ > Tamanduateí(10):
+   +-> Tamanduateí(2)
+   +-> Ipiranga(10)
+   +-> São Caetano do Sul(10)
+
+ > Calmon Viana(12):
+   +-> Calmon Viana(11)
+   +-> Aracaré(12)
+
+ > Braz Cubas(11):
+   +-> Jundiapeba(11)
+   +-> Mogi das Cruzes(11)
+
+ > São Miguel Paulista(12):
+   +-> Comendador Ermelino(12)
+   +-> Jardim Helena-Vila Mara(12)
+
+ > São Lucas(15):
+   +-> Oratório(15)
+   +-> Camilo Haddad(15)
+
+ > Sé(1):
+   +-> São Bento(1)
+   +-> Sé(1)
+   +-> Sé(3)
+   +-> Japão-Liberdade(1)
+
+ > Jardim Planalto(15):
+   +-> Vila União(15)
+   +-> Sapopemba(15)
+
+ > Trianon-Masp(2):
+   +-> Consolação(2)
+   +-> Brigadeiro(2)
+
+ > AACD-Servidor(5):
+   +-> Moema(5)
+   +-> Hospital São Paulo(5)
+
+ > Osasco(8):
+   +-> Comandante Sampaio(8)
+   +-> Osasco(9)
+   +-> Presidente Altino(8)
+
+ > Villa-Lobos-Jaguaré(9):
+   +-> Ceasa(9)
+   +-> Cidade Universitária(9)
+
+ > Aeroporto-Guarulhos(13):
+   +-> Guarulhos-Cecap(13)
+
+ > Campo Limpo(5):
+   +-> Capão Redondo(5)
+   +-> Vila das Belezas(5)
+
+ > Bresser-Mooca(3):
+   +-> Brás(3)
+   +-> Belém(3)
+
+ > Vila Prudente(2):
+   +-> Tamanduateí(2)
+   +-> Vila Prudente(15)
+
+ > Vila Aurora(7):
+   +-> Perus(7)
+   +-> Jaraguá(7)
+
+ > Itapevi(8):
+   +-> Santa Rita(8)
+   +-> Engenheiro Cardoso(8)
+
+ > Presidente Altino(9):
+   +-> Osasco(9)
+   +-> Presidente Altino(8)
+   +-> Ceasa(9)
+
+ > Bruno Covas-Mendes-Vila Natal(9):
+   +-> Grajaú(9)
+
+ > Mauá(10):
+   +-> Capuava(10)
+   +-> Guapituba(10)
+
+ > Vila Tolstói(15):
+   +-> Camilo Haddad(15)
+   +-> Vila União(15)
+
+ > Sapopemba(15):
+   +-> Jardim Planalto(15)
+   +-> Fazenda da Juta(15)
+
+ > Tucuruvi(1):
+   +-> Parada Inglesa(1)
+
+ > Santo Amaro(9):
+   +-> Santo Amaro(5)
+   +-> João Dias(9)
+   +-> Socorro(9)
+
+ > Dom Bosco(11):
+   +-> Corinthians-Itaquera(11)
+   +-> José Bonifácio(11)
+
+ > Suzano(11):
+   +-> Calmon Viana(11)
+   +-> Jundiapeba(11)
+
+ > Vila Madalena(2):
+   +-> Sumaré(2)
+
+ > Luz(7):
+   +-> Luz(1)
+   +-> Luz(4)
+   +-> Luz(10)
+   +-> Luz(11)
+   +-> Palmeiras-Barra Funda(7)
+
+ > Paraíso(1):
+   +-> Vergueiro(1)
+   +-> Paraíso(1)
+   +-> Paraíso(2)
+   +-> Ana Rosa(1)
+
+ > Mogi das Cruzes(11):
+   +-> Braz Cubas(11)
+   +-> Estudantes(11)
+
+ > Santana(1):
+   +-> Jardim São Paulo-Ayrton Senna(1)
+   +-> Carandiru(1)
+
+ > Palmeiras-Barra Funda(8):
+   +-> Palmeiras-Barra Funda(3)
+   +-> Palmeiras-Barra Funda(7)
+   +-> Lapa(8)
+   +-> Júlio Prestes(8)
+
+ > Santa Cecília(3):
+   +-> Marechal Deodoro(3)
+   +-> República(3)
+
+ > Anhangabaú(3):
+   +-> Sé(3)
+   +-> República(3)
+
+ > Artur Alvim(3):
+   +-> Patriarca-Vila Ré(3)
+   +-> Corinthians-Itaquera(3)
+
+ > Alto da Bela Vista(5):
+   +-> Adolfo Pinheiro(5)
+   +-> Borba Gato(5)
+
+ > Hebraica-Rebouças(9):
+   +-> Pinheiros(9)
+   +-> Cidade Jardim(9)
+
+ > Grajaú(9):
+   +-> Primavera-Interlagos(9)
+   +-> Bruno Covas-Mendes-Vila Natal(9)
+
+ > Praça da Árvore(1):
+   +-> Santa Cruz(1)
+   +-> Saúde(1)
+
+ > Brooklin(5):
+   +-> Borba Gato(5)
+   +-> Campo Belo(5)
+
+ > José Bonifácio(11):
+   +-> Dom Bosco(11)
+   +-> Guaianases(11)
+
+ > Engenheiro Manoel Feio(12):
+   +-> Jardim Romano(12)
+   +-> Itaquaquecetuba(12)
+
+ > Camilo Haddad(15):
+   +-> São Lucas(15)
+   +-> Vila Tolstói(15)
+
+ > Consolação(2):
+   +-> Clínicas(2)
+   +-> Trianon-Masp(2)
+   +-> Paulista(4)
+
+ > Campo Belo(5):
+   +-> Brooklin(5)
+   +-> Eucaliptos(5)
+
+ > Ceasa(9):
+   +-> Presidente Altino(9)
+   +-> Villa-Lobos-Jaguaré(9)
+
+ > Calmon Viana(11):
+   +-> Poá(11)
+   +-> Calmon Viana(12)
+   +-> Suzano(11)
+
+ > Engenheiro Goulart(12):
+   +-> Tatuapé(12)
+   +-> Engenheiro Goulart(13)
+   +-> USP Leste(12)
+
+ > Brás(11):
+   +-> Luz(11)
+   +-> Brás(3)
+   +-> Brás(7)
+   +-> Brás(10)
+   +-> Brás(12)
+   +-> Tatuapé(11)
+
+ > Brás(7):
+   +-> Brás(3)
+   +-> Brás(10)
+   +-> Brás(11)
+   +-> Brás(12)
+
+ > Belém(3):
+   +-> Bresser-Mooca(3)
+   +-> Tatuapé(3)
+
+ > Giovani Gronchi(5):
+   +-> Vila das Belezas(5)
+   +-> Santo Amaro(5)
+
+ > Moema(5):
+   +-> Eucaliptos(5)
+   +-> AACD-Servidor(5)
+
+ > Jaraguá(7):
+   +-> Vila Aurora(7)
+   +-> Vila Clarice(7)
+
+ > Sagrado Coração(8):
+   +-> Engenheiro Cardoso(8)
+   +-> Jandira(8)
+
+ > Palmeiras-Barra Funda(7):
+   +-> Luz(7)
+   +-> Palmeiras-Barra Funda(3)
+   +-> Palmeiras-Barra Funda(8)
+   +-> Água Branca(7)
+
+ > Tatuapé(12):
+   +-> Brás(12)
+   +-> Tatuapé(3)
+   +-> Tatuapé(11)
+   +-> Engenheiro Goulart(12)
+
+ > Penha(3):
+   +-> Carrão(3)
+   +-> Vila Matilde(3)
+
+ > Patriarca-Vila Ré(3):
+   +-> Guilhermina Esperança(3)
+   +-> Artur Alvim(3)
+
+ > Jardim Silveira(8):
+   +-> Jandira(8)
+   +-> Barueri(8)
+
+ > Socorro(9):
+   +-> Santo Amaro(9)
+   +-> Jurubatuba(9)
+
+ > Utinga(10):
+   +-> São Caetano do Sul(10)
+   +-> Prefeito Saladino(10)
+
+ > Estudantes(11):
+   +-> Mogi das Cruzes(11)
+
+ > Aracaré(12):
+   +-> Calmon Viana(12)
+   +-> Itaquaquecetuba(12)
+
+ > Chácara Klabin(5):
+   +-> Santa Cruz(5)
+   +-> Chácara Klabin(2)
+
+ > Sacomã(2):
+   +-> Alto do Ipiranga(2)
+   +-> Tamanduateí(2)
+
+ > Carrão(3):
+   +-> Tatuapé(3)
+   +-> Penha(3)
+
+ > Pinheiros(9):
+   +-> Pinheiros(4)
+   +-> Cidade Universitária(9)
+   +-> Hebraica-Rebouças(9)
+
+ > Jundiaí(7):
+   +-> Várzea Paulista(7)
+
+ > Caieiras(7):
+   +-> Baltazar Fidélis(7)
+   +-> Perus(7)
+
+ > Água Branca(7):
+   +-> Palmeiras-Barra Funda(7)
+   +-> Lapa(7)
+
+ > Santa Rita(8):
+   +-> Amador Bueno(8)
+   +-> Itapevi(8)
+
+ > Jabaquara(1):
+   +-> Conceição(1)
+
+ > Osasco(9):
+   +-> Osasco(8)
+   +-> Presidente Altino(9)
+
+ > Domingos de Moraes(8):
+   +-> Imperatriz Leopoldina(8)
+   +-> Lapa(8)
+
+ > Jundiapeba(11):
+   +-> Suzano(11)
+   +-> Braz Cubas(11)
+
+ > Oratório(15):
+   +-> Vila Prudente(15)
+   +-> São Lucas(15)
+
+ > Santa Terezinha(8):
+   +-> Antonio João(8)
+   +-> Carapicuiba(8)
+
+ > Tamanduateí(2):
+   +-> Sacomã(2)
+   +-> Tamanduateí(10)
+   +-> Vila Prudente(2)
+
+ > Palmeiras-Barra Funda(3):
+   +-> Palmeiras-Barra Funda(7)
+   +-> Palmeiras-Barra Funda(8)
+   +-> Marechal Deodoro(3)
+
+ > Corinthians-Itaquera(3):
+   +-> Artur Alvim(3)
+   +-> Corinthians-Itaquera(11)
+
+ > Pinheiros(4):
+   +-> Butantã(4)
+   +-> Pinheiros(9)
+   +-> Faria Lima(4)
+
+ > Higienópolis-Mackenzie(4):
+   +-> República(4)
+   +-> Paulista(4)
+
+ > João Dias(9):
+   +-> Santo Amaro(9)
+   +-> Granja Julieta(9)
+
+ > Poá(11):
+   +-> Ferraz de Vasconcelos(11)
+   +-> Calmon Viana(11)
+
+ > Consolação(4):
+   +-> Oscar Freire(4)
+   +-> Higienópolis-Mackenzie(4)
+

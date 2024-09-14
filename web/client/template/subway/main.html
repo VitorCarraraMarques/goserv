@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <link rel="stylesheet" href="/style/output.css" />
+    <title>Como Chegar?</title>
+  </head>
+
+  <body class="font-['Helvetica']">
+    <nav class="flex justify-between m-5 pb-2 border-b-2 border-b-zinc-500">
+      <div class="">
+        <span class="mr-2"> CARRARA </span>
+      </div>
+    </nav>
+
+    <main class="m-5 p-3">
+      <form hx-post="/subway/path" hx-target="#pathdiv" hx-swap="innerHTML">
+        <div class="flex gap-5 justify-center">
+          <div class="flex flex-col">
+            <div class="flex flex-col justify-center">
+              <div class="h-4 bg-black"></div>
+              <div class="h-1 bg-white"></div>
+              <div class="text-4xl bg-black text-white p-4">PARTINDO DE</div>
+            </div>
+            <div class="h-1 bg-white"></div>
+            <div>
+              <select
+                class="w-full text-3xl bg-black text-white border-none border-0"
+                name="SelectedLane"
+                hx-get="/subway/nodes"
+                hx-target="#station-from"
+                hx-swap="innerHTML"
+              >
+                <option selected disabled value="0">Linha</option>
+                {{ range .Subway.Lanes }}
+                <option class="hover:text-black hover:bg-white" value="{{.Id}}">{{.Id}} - {{.Name}}</option>
+                {{ end }}
+              </select>
+            </div>
+            <div class="h-1 bg-white"></div>
+            <div>
+              <select
+                class="w-full text-3xl bg-black text-white border-none border-0"
+                id="station-from"
+                name="StationFrom"
+              >
+                <option selected disabled value="0">Estação</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-stretch">
+            <div class="flex flex-col justify-center">
+              <div class="h-4 bg-black"></div>
+              <div class="h-1 bg-white"></div>
+              <div class="text-4xl bg-black text-white p-4">CHEGAR EM</div>
+            </div>
+            <div class="h-1 bg-white"></div>
+            <div class="bg-black">
+              <select
+                class="w-full text-3xl bg-black text-white border-none border-0"
+                name="SelectedLane"
+                hx-get="/subway/nodes"
+                hx-target="#station-to"
+                hx-swap="innerHTML"
+              >
+                <option selected disabled value="0">Linha</option>
+                {{ range .Subway.Lanes }}
+                <option class="bg-black" value="{{.Id}}">{{.Id}} - {{.Name}}</option>
+                {{ end }}
+              </select>
+            </div>
+            <div class="h-1 bg-white"></div>
+            <div>
+              <select
+                class="w-full text-3xl bg-black text-white border-none border-0"
+                id="station-to"
+                name="StationTo"
+              >
+                <option selected disabled value="0">Estação</option>
+              </select>
+            </div>
+          </div>
+
+          <button>Encontrar Caminhos</button>
+        </div>
+      </form>
+      <div id="pathdiv" class="mt-5"></div>
+    </main>
+
+    <footer
+      class="absolute bottom-2 w-screen text-center border-y border-y-gray-300 p-3"
+    >
+      Copyright @ Carrara Software ₢ 2024
+    </footer>
+    <div hidden class="bg-subwaylane-1 text-subwaylanetext-1"></div>
+    <div hidden class="bg-subwaylane-2 text-subwaylanetext-2"></div>
+    <div hidden class="bg-subwaylane-3 text-subwaylanetext-3"></div>
+    <div hidden class="bg-subwaylane-4 text-subwaylanetext-4"></div>
+    <div hidden class="bg-subwaylane-5 text-subwaylanetext-5"></div>
+    <div hidden class="bg-subwaylane-6 text-subwaylanetext-6"></div>
+    <div hidden class="bg-subwaylane-7 text-subwaylanetext-7"></div>
+    <div hidden class="bg-subwaylane-8 text-subwaylanetext-8"></div>
+    <div hidden class="bg-subwaylane-9 text-subwaylanetext-9"></div>
+    <div hidden class="bg-subwaylane-10 text-subwaylanetext-10"></div>
+    <div hidden class="bg-subwaylane-11 text-subwaylanetext-11"></div>
+    <div hidden class="bg-subwaylane-12 text-subwaylanetext-12"></div>
+    <div hidden class="bg-subwaylane-13 text-subwaylanetext-13"></div>
+    <div hidden class="bg-subwaylane-14 text-subwaylanetext-14"></div>
+    <div hidden class="bg-subwaylane-15 text-subwaylanetext-15"></div>
+  </body>
+</html>

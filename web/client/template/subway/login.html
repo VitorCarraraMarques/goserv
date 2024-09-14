@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <link rel="stylesheet" href="/style/output.css" />
+    <title>Subway[Admin]</title>
+</head>
+
+<body class="bg-zinc-900">
+    <main class="w-dvw absolute top-[50%] translate-y-[-50%] flex justify-center">
+        <div class="w-fit flex flex-col gap-5 align-middle items-center">
+            <span class="text-center text-9xl text-white font-thin">THE PASSWORD</span>
+            <form 
+                hx-post="/subway/admin" 
+                hx-swap="outerHTML"
+                class="flex flex-col"  
+                type="submit"
+            >
+                <input name="SubwayPassword" type="password" class="p-4 border-2 text-zinc-200 border-zinc-200 bg-zinc-500 text-4xl w-[56rem]" />
+                <button class="rounded-lg bg-zinc-200 hover:bg-zinc-600 self-end text-2xl p-4" onclick="submit">
+                    LOGIN
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
